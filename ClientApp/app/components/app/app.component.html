@@ -1,15 +1,25 @@
-<div class='container-fluid'>
-    <div class='row'>
-        <globaltool-menu></globaltool-menu>
+<div id='mainpage' class='container'>
+
+       <router-outlet></router-outlet>
+
+    <div id='containerTop' class=' layoutcontainer'>
+           <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                   <globaltool-menu></globaltool-menu>
+          </div>
     </div>
-     <div class='row'>
-        <div class='col-sm-9'>
-            <designview></designview>
-        </div>
-        <div class='col-sm-3 body-content'>
-        </div>
+
+     <div id='containerMiddle'  class=' layoutcontainer'>
+
+        <div id='contentContMain' class="col-md-10 no-float"></div>
+            
+        <div id='contentContTool'  class="col-md-2 no-float"></div>
+           
     </div>
-     <div class='row'>
-         <designtool-menu></designtool-menu>
+ 
+     <div id='containerBottom'  class=' layoutcontainer'>
+           <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <designtool-menu></designtool-menu>
+          </div>
+       
     </div>
 </div>

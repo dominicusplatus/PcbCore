@@ -18,11 +18,11 @@ import { DesignViewComponent } from './components/designview/designview.componen
     imports: [
         UniversalModule, // Must be first import. This automatically imports BrowserModule, HttpModule, and JsonpModule too.
         RouterModule.forRoot([
-            { path: '', redirectTo: 'globaltool-menu', pathMatch: 'full' },
+            { path: '', redirectTo: 'designview', pathMatch: 'full' },
             { path: 'globaltool-menu', component: GlobalMenuComponent },
             { path: 'designtool-menu', component: DesignToolMenuComponent },
             { path: 'designview', component: DesignViewComponent},
-            { path: '**', redirectTo: 'globaltool-menu' }
+            { path: '**', redirectTo: 'designview' }
         ])
     ]
 })

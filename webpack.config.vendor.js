@@ -74,7 +74,10 @@ var serverBundleConfig = merge(sharedConfig, {
         libraryTarget: 'commonjs2',
     },
     module: {
-        loaders: [ { test: /\.css(\?|$)/, loader: 'to-string-loader!css-loader' } ]
+        loaders: [ 
+            { test: /\.css(\?|$)/, loader: 'to-string-loader!css-loader' } 
+        
+        ]
     },
     entry: { vendor: ['aspnet-prerendering'] },
     plugins: [

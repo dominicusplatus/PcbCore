@@ -6,6 +6,78 @@
         <title>@ViewData["Title"] - NetcoreSPA1</title>
         <base href="/" />
         <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+         <link rel="stylesheet" href="../../../Styles/main.css" asp-append-version="true" />
+
+         <style>
+            html, body{
+                height: 100%;
+                min-height: 100%;
+            }
+
+
+            html,body,.container {
+                height:100%;
+            }
+
+            .layoutcontainer {
+                width: 100%;
+                height:100%;
+                box-sizing: border-box;
+            }
+
+            .row {
+                height: 100%;
+                display: table-row;
+            }
+
+            .row .no-float {
+            display: table-cell;
+            float: none;
+            }
+
+            #mainpage{
+                height: 100%;
+                min-height: 100%;
+                width: 100%;
+                    box-sizing:border-box;
+            }
+
+            #containerTop{
+                height: 7%;
+                min-height: 7%;
+                width: 100%;
+                box-sizing:border-box;
+            }
+
+            #containerMiddle{
+                height: 86%;
+                min-height: 86%;
+                width: 100%;   
+             /*   background-color: #42a124; */
+                box-sizing:border-box;
+            }
+
+            #containerBottom{
+                height: 7%;
+                min-height: 7%;
+                width: 100%;
+                box-sizing:border-box;
+            }
+
+            #contentContMain{
+                height: 100%;
+                min-height: 100%;
+                box-sizing:border-box;
+            }
+
+            #contentContTool{
+                height: 100%;
+                min-height: 100%;
+                box-sizing:border-box;
+            }
+
+        </style>
+
     </head>
     <body>
         @RenderBody()
