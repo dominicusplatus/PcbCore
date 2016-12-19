@@ -7,6 +7,10 @@ import { GlobalMenuComponent } from './components/globaltoolmenu/globaltoolmenu.
 import { DesignToolMenuComponent } from './components/designtoolmenu/designtoolmenu.component';
 import { DesignViewComponent } from './components/designview/designview.component';
 
+import { Raphael } from 'raphael';
+
+/// <reference path='references.ts'/>
+
 @NgModule({
     bootstrap: [ AppComponent ],
     declarations: [
