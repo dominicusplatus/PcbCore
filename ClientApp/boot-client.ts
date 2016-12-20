@@ -2,6 +2,11 @@ import 'angular2-universal-polyfills/browser';
 import { enableProdMode } from '@angular/core';
 import { platformUniversalDynamic } from 'angular2-universal';
 import { AppModule } from './app/app.module';
+
+import { Raphael } from 'raphael';
+import {SchematicGridDrawingTool}  from "./app/tools/drawing/SchematicGridDrawingTool";
+
+
 import 'bootstrap';
 
 // Enable either Hot Module Reloading or production mode

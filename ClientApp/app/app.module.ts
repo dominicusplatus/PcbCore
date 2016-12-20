@@ -2,14 +2,13 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { UniversalModule } from 'angular2-universal';
 
+import { Raphael } from 'raphael';
+import {SchematicGridDrawingTool}  from "./tools/drawing/SchematicGridDrawingTool";
+
 import { AppComponent } from './components/app/app.component'
 import { GlobalMenuComponent } from './components/globaltoolmenu/globaltoolmenu.component';
 import { DesignToolMenuComponent } from './components/designtoolmenu/designtoolmenu.component';
 import { DesignViewComponent } from './components/designview/designview.component';
-
-import { Raphael } from 'raphael';
-
-/// <reference path='references.ts'/>
 
 @NgModule({
     bootstrap: [ AppComponent ],
@@ -30,5 +29,7 @@ import { Raphael } from 'raphael';
         ])
     ]
 })
+
 export class AppModule {
+    
 }

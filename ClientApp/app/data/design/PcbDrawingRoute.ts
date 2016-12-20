@@ -1,7 +1,7 @@
-/// <reference path='IDrawingRoute.ts'/>
-/// <reference path='DrawingCoordinate.ts'/>
+import {IDrawingRoute}  from "./IDrawingRoute";
+import {DrawingCoordinate}  from "./DrawingCoordinate";
 
-class PcbDrawingRoute implements IDrawingRoute{
+export class PcbDrawingRoute implements IDrawingRoute{
     uuid: string;
     points: Array<DrawingCoordinate>;
 }

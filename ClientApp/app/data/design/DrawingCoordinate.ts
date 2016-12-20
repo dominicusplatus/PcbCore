@@ -1,6 +1,6 @@
-/// <reference path='IDrawingCoordinate.ts'/>
+import {IDrawingCoordinate}  from "./IDrawingCoordinate";
 
-class DrawingCoordinate implements IDrawingCoordinate{
+export class DrawingCoordinate implements IDrawingCoordinate{
     x: number;
     y: number;
 }

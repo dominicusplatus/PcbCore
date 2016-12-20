@@ -1,6 +1,6 @@
-/// <reference path='IDrawingCoordinate.ts'/>
+import {IDrawingCoordinate}  from "./IDrawingCoordinate";
 
-interface IDrawingRoute{
+export interface IDrawingRoute{
     uuid: string;
     points: Array<IDrawingCoordinate>;
 }

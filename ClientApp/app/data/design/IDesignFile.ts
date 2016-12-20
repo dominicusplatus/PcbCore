@@ -1,6 +1,6 @@
-/// <reference path='IDrawingRoute.ts'/>
+import {IDrawingRoute}  from "./IDrawingRoute";
 
-interface IDesignFile{
+export interface IDesignFile{
     uuid: string;
     name: string;
     lastedit: Date;

@@ -5,6 +5,10 @@ import { enableProdMode } from '@angular/core';
 import { platformNodeDynamic } from 'angular2-universal';
 import { AppModule } from './app/app.module';
 
+import { Raphael } from 'raphael';
+import {SchematicGridDrawingTool}  from "./app/tools/drawing/SchematicGridDrawingTool";
+
+
 enableProdMode();
 const platform = platformNodeDynamic();
 
