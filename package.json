@@ -21,6 +21,7 @@
     "angular2-universal-polyfills": "~2.1.0-rc.1",
     "aspnet-prerendering": "^2.0.0",
     "aspnet-webpack": "^1.0.17",
+    "bootbox": "^4.4.0",
     "bootstrap": "^3.3.7",
     "css": "^2.2.1",
     "css-loader": "^0.26.1",

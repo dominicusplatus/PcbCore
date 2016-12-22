@@ -7,13 +7,11 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace PcbNext.Data
 {
-    public interface IPcbVia
+    public interface IRoute
     {
          [BsonId]
-         public string Id { get; set; }
+         string Id { get; set; }
       
-        [BsonElement]
-         List<int> LayerIds { get; set; }
 
          [BsonElement]
           double HoleSize { get; set; }

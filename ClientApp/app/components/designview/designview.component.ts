@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Raphael } from 'raphael';
+
 import {SchematicGridDrawingTool}  from "../../tools/drawing/SchematicGridDrawingTool";
 
 @Component({
@@ -14,6 +16,8 @@ export class DesignViewComponent {
     
     public draw(){
           this.drawtool.draw();
+
+
     }
           
     clicked(event) {
