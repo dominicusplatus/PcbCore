@@ -20,18 +20,30 @@ export class DesignViewComponent {
     public draw(){
           this.drawtool.draw();
 
-            var c = <HTMLCanvasElement> document.getElementById("myCanvas");
+            
+         //direct cavas drawing 
+         /*
+
+        <canvas id="designDrawingCanvas" >
+            
+        </canvas> 
+        
+         var c = <HTMLCanvasElement> document.getElementById("designDrawingCanvas");
             var ctx = c.getContext("2d");
             ctx.moveTo(0,0);
             ctx.lineTo(200,100);
             ctx.stroke();
+            */
 
-
-/*
-                var drawer = Raphael("myCanvas", 200, 200);
+                var drawer = Raphael(document.getElementById("designDrawingCanvas"), 400, 200);
                 var circle =    drawer.circle(50, 40, 10);
                 circle.attr("fill", "#f00");
                 circle.attr("stroke", "#fff");
+
+
+
+/*
+            
 */
 
 
