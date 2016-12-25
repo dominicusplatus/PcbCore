@@ -10,7 +10,7 @@ namespace PcbNext.Data
     public interface IPcbVia
     {
          [BsonId]
-         public string Id { get; set; }
+         string Id { get; set; }
       
         [BsonElement]
          List<int> LayerIds { get; set; }

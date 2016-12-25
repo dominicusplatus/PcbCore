@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { Raphael } from 'raphael';
+
+//import IService = require("./raphael");
+
+import * as Raphael from 'raphael';
 
 import {SchematicGridDrawingTool}  from "../../tools/drawing/SchematicGridDrawingTool";
 
@@ -16,6 +19,20 @@ export class DesignViewComponent {
     
     public draw(){
           this.drawtool.draw();
+
+            var c = <HTMLCanvasElement> document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+            ctx.stroke();
+
+
+/*
+                var drawer = Raphael("myCanvas", 200, 200);
+                var circle =    drawer.circle(50, 40, 10);
+                circle.attr("fill", "#f00");
+                circle.attr("stroke", "#fff");
+*/
 
 
     }

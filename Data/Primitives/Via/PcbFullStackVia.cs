@@ -69,6 +69,19 @@ namespace PcbNext.Data
                 _layerids = value;
             }
         }
+
+        string IPcbVia.Id
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 
 }
