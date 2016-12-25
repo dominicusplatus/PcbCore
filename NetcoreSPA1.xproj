@@ -8,7 +8,7 @@
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>b6c13a18-649a-4cab-a262-28262b4f8cbc</ProjectGuid>
-    <RootNamespace>NetcoreSPA1</RootNamespace>
+    <RootNamespace>pcbcore</RootNamespace>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>

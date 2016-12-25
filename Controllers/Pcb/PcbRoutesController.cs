@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using PcbNext.Data;
 
-namespace NetcoreSPA1.Controllers
+namespace pcbcore.Controllers
 {
     [Route("api/[controller]")]
     public class PcbRoutesController : Controller
