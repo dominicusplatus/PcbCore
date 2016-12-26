@@ -32,6 +32,7 @@ var sharedConfig = {
             'event-source-polyfill',
             'jquery',
             'zone.js',
+            'raphael'
         ]
     },
     output: {
